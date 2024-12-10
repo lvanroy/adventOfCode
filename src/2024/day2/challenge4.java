@@ -21,18 +21,7 @@ void main(String[] args) throws IOException {
             int size = ids.size();
 
             if (validateIncreasing(ids, size) || validateIncreasing(ids.reversed(), size)) {
-                System.out.print("success: ");
-                for (int i: ids) {
-                    System.out.print(i + ", ");
-                }
-                System.out.println();
                 safeEntries ++;
-            } else {
-                System.out.print("failed: ");
-                for (int i: ids) {
-                    System.out.print(i + ", ");
-                }
-                System.out.println();
             }
         }
     }
