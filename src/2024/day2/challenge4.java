@@ -1,5 +1,4 @@
 import static java.lang.Math.abs;
-import static java.util.Arrays.sort;
 import static java.util.Arrays.stream;
 
 void main(String[] args) throws IOException {
