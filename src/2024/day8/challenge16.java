@@ -9,9 +9,6 @@ void main(String[] args) throws IOException {
     // Store the antenna's on a by frequency basis
     Map<Character, List<Antenna>> antennas = new HashMap<>();
 
-    // Capture the result
-    long result = 0;
-
     // Store information on the grid
     GridInfo gridInfo = new GridInfo();
 
