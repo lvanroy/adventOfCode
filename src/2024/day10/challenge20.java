@@ -17,7 +17,6 @@ void main(String[] args) throws IOException {
     int result = 0;
     for (Position position: startingPositions) {
         result += explorePaths(grid, Set.of(position), 1, rowBound, colBound);
-//        System.out.println(result);
     }
     System.out.println(result);
 }
@@ -41,11 +40,6 @@ Set<Position> getData(String filename, List<String> grid) throws IOException {
 }
 
 int explorePaths(List<String> grid, Set<Position> positions, int nextDigit, int rowBound, int colBound) {
-//    System.out.print("nextDigit: " + nextDigit + "|: ");
-//    for (Position position: positions) {
-//        System.out.print(format("%s, ", position));
-//    }
-//    System.out.println();
     Set<Position> newPositions = new HashSet<>();
     for (Position position: positions) {
         int row = position.row;

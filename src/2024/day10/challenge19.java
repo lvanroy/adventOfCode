@@ -40,10 +40,6 @@ Set<Position> getData(String filename, List<String> grid) throws IOException {
 }
 
 int explorePaths(List<String> grid, Set<Position> positions, int nextDigit, int rowBound, int colBound) {
-//    for (Position position: positions) {
-//        System.out.print(format("%s, ", position));
-//    }
-//    System.out.println();
     Set<Position> newPositions = new HashSet<>();
     for (Position position: positions) {
         int row = position.row;
