@@ -14,8 +14,6 @@ void main(String[] args) throws IOException {
     // Reorder the memory content, this will also strip '.' entries
     List<Integer> orderedMemory = reorderMemory(memory);
 
-    System.out.println(memory);
-    System.out.println(orderedMemory);
     System.out.println(computeChecksum(orderedMemory));
 }
 
