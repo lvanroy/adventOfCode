@@ -1,11 +1,8 @@
 package AOC2025.day1;
 
 import java.io.BufferedReader;
-import java.io.FileNotFoundException;
 import java.io.FileReader;
 import java.io.IOException;
-
-import static java.util.Arrays.stream;
 
 public class challenge1 {
     // a dial with one arrow, 0 to 99
